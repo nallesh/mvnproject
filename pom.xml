@@ -22,12 +22,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <repositories>
+  <distributionManagement>
     <repository>
-      <id>aws-release</id>
-      <url>https://codecatalyst.aws/spaces/codecatalystbuild/projects/codecatalyst-artifact-environment/package-repositories/mvndemo</url>
+      <id>enallamvn-enallamvnartifact</id>
+      <name>enallamvn-enallamvnartifact</name>
+      <url>https://enallamvn-837585414325.d.codeartifact.ap-south-1.amazonaws.com/maven/enallamvnartifact/</url>
     </repository>
-  </repositories>
+  </distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
