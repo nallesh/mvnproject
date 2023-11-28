@@ -1,4 +1,4 @@
-package com.mvndemo.app;
+package com.mvnproject.app;
 
 /**
  * Hello world!
