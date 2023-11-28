@@ -6,7 +6,7 @@
 
   <groupId>com.mvndemo.app</groupId>
   <artifactId>mvndemo</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
 
   <name>mvndemo</name>
   <!-- FIXME change it to the project's website -->
@@ -31,7 +31,7 @@
       <repositories>
         <repository>
           <id>aws-release</id>
-          <url>arn:aws:s3:::mvnartifact</url>
+          <url>https://codecatalyst.aws/spaces/codecatalystbuild/projects/codecatalyst-artifact-environment/package-repositories/mvndemo</url>
         </repository>
       </repositories>
     </distributionManagement>
