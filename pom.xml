@@ -4,7 +4,7 @@
 
   <groupId>com.mvnproject.app</groupId>
   <artifactId>mnvproject</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <!-- <packaging>jar</packaging> -->
 
  <!--  <name>mnvproject</name>
@@ -19,14 +19,14 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
-      <scope>test</scope>
+      <scope>test1</scope>
     </dependency>
   </dependencies>
   <distributionManagement>
     <repository>
-      <id>enallamvn-enallamvnartifact</id>
-      <name>enallamvn-enallamvnartifact</name>
-      <url>https://enallamvn-837585414325.d.codeartifact.ap-south-1.amazonaws.com/maven/enallamvnartifact/</url>
+      <id>mvnproject-mvnprojectenalla</id>
+      <name>mvnproject-mvnprojectenalla</name>
+      <url>https://mvnproject-837585414325.d.codeartifact.ap-south-1.amazonaws.com/maven/mvnprojectenalla/</url>
     </repository>
   </distributionManagement>
   <build>
